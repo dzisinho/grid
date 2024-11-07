@@ -1,0 +1,32 @@
+.profile-card {
+    display: grid;
+    grid-template-areas:
+      "avatar"
+      "name-rating"
+      "info";
+    gap: 10px;
+    background-color: #1c1c1e;
+    color: #ffffff;
+    border-radius: 10px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+  }
+  .avatar {
+    grid-area: avatar;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #333;
+    margin: 0 auto;
+  }
+  .name-rating {
+    grid-area: name-rating;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  .info {
+    grid-area: info;
+    font-size: 0.9em;
+  }
+  
